@@ -389,29 +389,29 @@ figure{
 
     .navi{
     display: inline-block;
-    margin-left: 0px;
-    font-size: 10px;
+    margin-left: 20px;
+    font-size: 15px;
     text-decoration: underline;
     }
 
-    /*#contact{
+    #contact{
         visibility: hidden;
     }
-*/
+
     .section{
 
     border-bottom: 1px solid black;
     height: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     }
     .section2{
 
        border-bottom: 1px solid white;
         height: 60px;
         margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 0;
     }
 
@@ -420,25 +420,25 @@ figure{
        border-bottom: 1px solid black;
         height: 60px;
         margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 0;
     }
     .section4{
 
         margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 0;
     }
 
     .titleDate{
-    font-size: px;
+    font-size: 15px;
     margin: 0; 
     }
 
     .titleDate2{
-    font-size: 25px;
+    font-size: 15px;
     margin: 0;
     color: white; 
     }
@@ -448,7 +448,7 @@ figure{
     }
 
     .titleWhat2{
-        font-size: 13px;
+        font-size: 15px;
         margin-left: 13px;
         color: white;
         visibility: hidden;
