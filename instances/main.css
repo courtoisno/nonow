@@ -368,8 +368,8 @@ figure{
     display: block;
 }
 /********************************* Styles SMARTPHONES *************************************/
-@media (max-width: 480px) 
-and (max-width: 720px){
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
+{
       .cycle-slideshow {
         width: 90%;
         position: relative;
