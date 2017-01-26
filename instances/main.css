@@ -364,7 +364,7 @@ figure{
 
 
 
-/* Styles SMARTPHONES*/
+/********************************* Styles SMARTPHONES *************************************/
 @media (max-width: 400px) {
       .cycle-slideshow {
         width: 90%;
@@ -375,10 +375,10 @@ figure{
       }
     .cycle-slideshow img {
         width: 100%; height: auto
-
     }
+
     .headd{
-        font-size: 25px;
+        font-size: 30x;
         line-height: 1.3;
         margin-left: 20px;
         margin-right: 20px;
@@ -389,8 +389,11 @@ figure{
 
     .navi{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 10px;
     text-decoration: underline;
+    }
+    #contact{
+        visibility: hidden;
     }
 
     .section{
@@ -426,6 +429,11 @@ figure{
         margin-right: 20px;
         margin-bottom: 0;
     }
+
+    .titleDate{
+    font-size: 20px;
+    margin: 0; 
+}
     .titleDate2{
     font-size: 25px;
     margin: 0;
