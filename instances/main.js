@@ -25,17 +25,17 @@ $(document).ready(function(){
  });
 
 
-      $(window).scroll(function() {
+ //      $(window).scroll(function() {
 
-    if ($(this).scrollTop()<350)
-     {
-        $('.footer').slideUp();
-     }
-    else
-     {
-      $('.footer').slideDown();
-     }
- });
+ //    if ($(this).scrollTop()<350)
+ //     {
+ //        $('.footer').slideUp();
+ //     }
+ //    else
+ //     {
+ //      $('.footer').slideDown();
+ //     }
+ // });
 
       // $('#works').hover(function() {
       // 	$('#works').addClass('animated swing').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
@@ -48,11 +48,11 @@ $(document).ready(function(){
       //   });
       // })
 
-      //   $('#contact').hover(function() {
-      // 	$('#contact').addClass('animated swing').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-      // 		$(this).removeClass('animated swing');
-      // 	});
-      // })
+        $('.click').hover(function() {
+      	$('.click').addClass('animated swing').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+      		$(this).removeClass('animated swing');
+      	});
+      })
    $("#works").click(function (){
                 $('html, body').animate({
                     scrollTop: $("#here").offset().top

@@ -20,11 +20,20 @@ body {
     background-color:white;
 }
 
+#websites{
+    visibility: hidden;
+}
+
 a.textmarker{
     color: black;
 }
 
-
+a.click{
+    color: blue;
+}
+a.click:hover{
+    color: blue;
+}
 img{
     display: none;
 }
@@ -59,12 +68,6 @@ img{
   counter-increment: gallery-cell;
 }
 
-.proj1:hover img{
-    display: block;
-    position: absolute;
-    right: 110px;
-    height: 50%;
-}
 
 .navi{
     display: inline-block;
@@ -79,9 +82,41 @@ img{
     color: lightgray;
     border-bottom: 1px solid lightgray;
 }
+
+
+.proj1:hover img{
+    display: block;
+    position: absolute;
+    right: 110px;
+    height: 50%;
+}
+
+
+.proj2:hover img{
+    margin-left: 240px;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+}
+.proj3:hover img{
+    margin-left: 510px;
+    margin-right: auto;
+    display: block;
+    max-width: 600px;
+    position: absolute;
+}
+
+.proj3:hover img{
+    margin-left: 510px;
+    margin-right: auto;
+    display: block;
+    max-width: 600px;
+    position: absolute;
+}
+
 .proj11:hover img{
     display: block;
-        position: absolute;
+    position: absolute;
     left: 110px;
     height: 50%;
 }
@@ -175,8 +210,10 @@ a.projA{
 a.projA2{
     color: black;
 }
-.projectp2{    position: fixed;
-    top: 100px;}
+.projectp2{   
+ position: fixed;
+    top: 100px;
+}
 .titleWhat{
     font-size: 17px;
 }
@@ -304,21 +341,20 @@ color: black;
     position: absolute;
 }
 
-/*BIG SCREENS*/
 .footer{
     height: 50px;
     width: 100%;
     border-top: 1px solid black;
 }
 
-@media only screen and ( max-width: 980px ) {
+/*@media only screen and ( max-width: 980px ) {
 
     .footer {
      height: 450px;
      }
 
      
-}
+}*/
 
  .before{
         margin-bottom: 20px;
@@ -362,7 +398,9 @@ figure{
 }
 
 .cycle-slideshow img { width: 100%; height: auto }
-
+.rwd-break2{
+    display: none;
+}
 
 .rwd-break{
     display: block;
@@ -503,6 +541,141 @@ figure{
     }
 }
 
+/********************************* Styles BIGGER SCRENS *************************************/
+
+@media only screen and (min-width: 1382px) {
+    .headd{
+        font-size: 58px;
+        line-height: 1.4;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 60px;
+    }
+    .cycle-slideshow {
+    width: 85%;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+    .rwd-break2{
+        display: block;
+    }
+
+    .footer{
+        height: 100px;
+        width: 100%;
+        border-top: 1px solid black;
+    }
+
+    .navi{
+        font-size: 25px;
+        margin-bottom: 60px;
+        display: inline-block;
+        margin-left: 50px;
+        text-decoration: underline;
+    }
+    .titleDate {
+    font-size: 40px;
+    margin-top: 10px;
+
+    }
+
+    .section{
+        height: 120px;
+        margin-left: 50px;
+    margin-right: 50px;
+
+    }
+
+    .titleWhat{
+    font-size: 25px;
+    margin-top: 27px;
+    }
+    .project{
+        position: fixed;
+        top: 100px;
+    }
+
+    .navProj{
+        position: fixed;
+        bottom: 0px;
+    }
+    .navProj2{
+        position: fixed;
+        bottom: 0px;
+    }
+    .description {
+        right: 0px !important;
+        position: absolute;
+    top: 100px;
+    }
+
+    .right{
+        margin-bottom: 20px
+    }
+        .closeProj{
+    color: white;
+    /* padding: 0px; */
+    position: absolute;
+    /* top: 0px; */
+     margin-bottom: 20px
+
+    }   
+    .nextnone{
+        visibility: hidden;
+    } 
+    #last {
+    position: fixed;
+    bottom: 60px;
+    }
+
+    .testfun2{
+    margin-right: 50px;
+    margin-left: 50px;
+    border-top: 1px solid black;
+    }
+    .section2 {
+    border-bottom: 1px solid white;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    }
+    .section3{
+
+       border-bottom: 1px solid black;
+        height: 60px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 0;
+    }
+    .textDes {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 0;
+    margin-right: 50px
+    }
+    .titleWhat2 {
+    font-size: 20px;
+    margin-left: 13px;
+    color: white;
+    }
+    .titleDate2{
+    font-size: 40px;
+    margin: 0;
+    color: white; 
+    }
+    .testfun {
+    margin-right: 50px;
+    margin-left: 50px;
+    border-top: 1px solid white;
+    }
+}
 .scroll-nav {z-index: 9999; position: fixed; left: 0; top: 0 !important; width: 100%;background:rgba(255,0,0,0.5);}
 .scroll-nav ul.menu {float:right;}
 #nav #left-header {float:left;font-size:80%;}
