@@ -449,7 +449,7 @@ figure{
     font-size: 15px;
     position: relative;
     color: white;
-    margin-top: 10px;
+    margin-top: 5px;
     }
     .titleDate{
     font-size: 18px;
@@ -484,10 +484,10 @@ figure{
     /* padding: 0px; */
     position: absolute;
     /* top: 0px; */
-    margin-top: 10px;
+    margin-top: 5px;
     }
     .rwd-break{
-        visibility: hidden;
+        display: none;
     }
 }
 
