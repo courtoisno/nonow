@@ -389,7 +389,7 @@ figure{
 
     .navi{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 15px;
     text-decoration: underline;
     }
@@ -445,6 +445,7 @@ figure{
 
     .titleWhat{
     font-size: 15px;
+    margin-top: 0;
     }
 
     .titleWhat2{
