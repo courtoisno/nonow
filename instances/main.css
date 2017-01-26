@@ -389,11 +389,15 @@ figure{
 
     .navi{
     display: inline-block;
-    margin-left: 30px;
+    margin-left: 10px;
     font-size: 15px;
+    color: blue;
     text-decoration: underline;
     }
 
+    .navi:hover{
+        color: blue;
+    }
     #contact{
         visibility: hidden;
     }
@@ -408,7 +412,7 @@ figure{
     .section2{
 
        border-bottom: 1px solid white;
-        height: 60px;
+        height: 30px;
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
@@ -433,7 +437,7 @@ figure{
     }
 
     .titleDate{
-    font-size: 15px;
+    font-size: 25px;
     margin: 0; 
     }
 
@@ -444,8 +448,7 @@ figure{
     }
 
     .titleWhat{
-    font-size: 15px;
-    margin-top: 0;
+    visibility: hidden;
     }
 
     .titleWhat2{
