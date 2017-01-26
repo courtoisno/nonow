@@ -363,7 +363,9 @@ figure{
 .cycle-slideshow img { width: 100%; height: auto }
 
 
-
+.rwd-break{
+    display: block;
+}
 /********************************* Styles SMARTPHONES *************************************/
 @media (max-width: 400px) {
       .cycle-slideshow {
@@ -388,7 +390,7 @@ figure{
     }
 
     .textDes{
-    font-size: 15px;
+    font-size: 12px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 40px;
@@ -486,7 +488,7 @@ figure{
     /* top: 0px; */
     margin-top: 5px;
     }
-    .rwd-break{
+    br.rwd-break{
         display: none;
     }
 }
