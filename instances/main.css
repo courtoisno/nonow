@@ -391,6 +391,7 @@ figure{
     font-size: 15px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 40px;
 }
 
     .navi{
@@ -448,7 +449,7 @@ figure{
     font-size: 15px;
     position: relative;
     color: white;
-    margin-top: 0px;
+    margin-top: 10px;
     }
     .titleDate{
     font-size: 18px;
@@ -456,7 +457,7 @@ figure{
     }
 
     .titleDate2{
-    font-size: 18px;
+    font-size: 15px;
     margin: 0;
     color: white; 
     }
@@ -483,6 +484,10 @@ figure{
     /* padding: 0px; */
     position: absolute;
     /* top: 0px; */
+    margin-top: 10px;
+    }
+    .rwd-break{
+        visibility: hidden;
     }
 }
 
