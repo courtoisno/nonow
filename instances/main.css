@@ -1,96 +1,89 @@
-html, body{
- font-family:  'axxented'
+html, body {
+    font-family: 'axxented'
 }
 @font-face {
-    font-family: 'axxented' ;
+    font-family: 'axxented';
     src: url(AXXENTED3-Regular.otf);
 }
-
 body {
-    height:1000px;
-    width:100%;
-    background-color:white;
+    height: 1000px;
+    width: 100%;
+    background-color: white;
 }
 .projBg {
     color: white;
-    background-color:black;
+    background-color: black;
 }
 .web {
     color: black;
-    background-color:white;
+    background-color: white;
 }
-#NON{
+#NON {
     visibility: hidden;
 }
-#websites{
+#websites {
     visibility: hidden;
 }
-
-a.textmarker{
+a.textmarker {
     color: black;
 }
+a.click {
+    color: blue;
+}
+a.click:hover {
+    color: blue;
+}
 
-a.click{
-    color: blue;
-}
-a.click:hover{
-    color: blue;
-}
 /*img{
     display: none;
 }*/
 
-.textmarker{
-     display:inline;
- background-size: 200% auto;
- -webkit-background-size: 200% auto;
- -moz-background-size: 200% auto;
- background-position: -0% 0;
- background-image:  linear-gradient(to right, rgba(255, 255, 255, 0) 50% , blue 100%);
- transition: background-position 0.3s ease-out;
- -webkit-transition: background-position 0.3s ease-out;
+.textmarker {
+    display: inline;
+    background-size: 200% auto;
+    -webkit-background-size: 200% auto;
+    -moz-background-size: 200% auto;
+    background-position: -0% 0;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, blue 100%);
+    transition: background-position 0.3s ease-out;
+    -webkit-transition: background-position 0.3s ease-out;
 }
-
-.textmarker:hover   {   background-position: -100% 0;}
-
-
-.textmarker.invers {       
-    background-position: -200% 0;    
-}
-.textmarker.invers:hover   {   
+.textmarker:hover {
     background-position: -100% 0;
 }
-
-.carousel-cell {
-  width: 100%;
-  height: 200px;
-  margin-right: 10px;
-  background: #8C8;
-  border-radius: 5px;
-  counter-increment: gallery-cell;
+.textmarker.invers {
+    background-position: -200% 0;
 }
-
-
-.navi{
+.textmarker.invers:hover {
+    background-position: -100% 0;
+}
+.carousel-cell {
+    width: 100%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+}
+.navi {
     display: inline-block;
     margin-left: 40px;
     text-decoration: underline;
 }
-.navi:hover{
+.navi:hover {
     color: lightgray
 }
-
 .section:hover {
     color: lightgray;
     border-bottom: 1px solid lightgray;
 }
-.section:hover p.titleDate{
+.section:hover p.titleDate {
+    color: lightgray;
+}
+a:hover {
     color: lightgray;
 }
 
-a:hover{
-    color: lightgray; 
-}
 /*.proj1:hover img{
     display: block;
     position: absolute;
@@ -152,15 +145,15 @@ a:hover{
     height: 30%;
     bottom: 270px;
 }*/
+
 img.cycle-next {
     cursor: url('../images/eyeball 10.18.53.png'), crosshair;
 }
-
-#here{
+#here {
     position: absolute;
     top: 20px;
 }
-.colo{
+.colo {
     font-style: italic;
 }
 header {
@@ -179,97 +172,86 @@ header {
     width: 100%;
     height: 380px;
 }
-.section{
-
+.section {
     border-bottom: 1px solid black;
     height: 100px;
     margin-left: 40px;
     margin-right: 40px;
 }
-.section2{
-
-   border-bottom: 1px solid white;
+.section2 {
+    border-bottom: 1px solid white;
     height: 60px;
     margin-top: 10px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 0;
 }
-
-.section3{
-
-   border-bottom: 1px solid black;
+.section3 {
+    border-bottom: 1px solid black;
     height: 60px;
     margin-top: 10px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 0;
 }
-.section4{
-
+.section4 {
     margin-top: 10px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 0;
 }
-.row .col{
+.row .col {
     float: left;
     box-sizing: border-box;
     padding: 0;
     min-height: 1px;
 }
-.titleDate{
+.titleDate {
     font-size: 35px;
-    margin: 0; 
+    margin: 0;
 }
-.titleDate3{
+.titleDate3 {
     font-size: 35px;
-    margin: 0; 
+    margin: 0;
 }
-#last{
+#last {
     position: fixed;
     bottom: 50px;
 }
-.textmarker a:hover{
+.textmarker a:hover {
     color: black
 }
-
-a.projA{
+a.projA {
     color: white;
 }
-a.projA2{
+a.projA2 {
     color: black;
 }
-.projectp2{   
- position: fixed;
+.projectp2 {
+    position: fixed;
     top: 100px;
 }
-.titleWhat{
+.titleWhat {
     font-size: 17px;
 }
-.titleDate2{
+.titleDate2 {
     font-size: 35px;
     margin: 0;
-    color: white; 
+    color: white;
 }
-.titleWhat2{
-       font-size: 17px;
+.titleWhat2 {
+    font-size: 17px;
     margin-left: 13px;
     color: white;
 }
-
-div .pro{
+div .pro {
     height: 100px;
 }
-div .pro2{
-}
-
-.main{
+div .pro2 {}
+.main {
     margin-top: 50px;
 }
-
-
-.headd{
+.headd {
     font-size: 45px;
     line-height: 1.3;
     margin-left: 40px;
@@ -278,7 +260,6 @@ div .pro2{
     padding-top: 10px;
     padding-bottom: 50px;
 }
-
 nav {
     font-size: 30px;
     text-align: center;
@@ -286,15 +267,15 @@ nav {
     background: floralwhite;
     box-shadow: none;
 }
-.webproj{
+.webproj {
     color: white;
 }
-.webdes{
+.webdes {
     color: black;
     font-size: 25px;
 }
 nav ul {
-    margin:0;
+    margin: 0;
     padding: 0;
     list-style-type: none;
 }
@@ -310,12 +291,11 @@ nav ul li a:hover {
     text-decoration: none;
     color: lightgray;
     -webkit-transition: color 900ms ease;
-    -moz-transition:color 900ms ease;
+    -moz-transition: color 900ms ease;
     -o-transition: color 900ms ease;
     transition: color 900ms ease;
 }
-
-.contentF{
+.contentF {
     margin-left: 40px;
     font-size: 15px;
 }
@@ -328,10 +308,13 @@ nav ul li a:hover {
     width: 1280px;
     height: 100%;
 }*/
+
+
 /*.content2{
    background-color: black;
 }*/
-.closeProj{
+
+.closeProj {
     color: white;
     font-size: 50px;
     /* padding: 0px; */
@@ -339,20 +322,17 @@ nav ul li a:hover {
     /* top: 0px; */
     margin-top: -10px;
 }
-
-.testfun{
+.testfun {
     margin-right: 40px;
     margin-left: 40px;
     border-top: 1px solid white;
 }
-
-.testfun2{
+.testfun2 {
     margin-right: 40px;
     margin-left: 40px;
     border-top: 1px solid black;
 }
-
-.right{
+.right {
     width: 100%;
     font-size: 35px;
     position: relative;
@@ -360,16 +340,14 @@ nav ul li a:hover {
     margin-top: 0px;
 }
 a {
-color: black;
+    color: black;
 }
-
-#contact{
+#contact {
     margin-right: 40px;
     right: 10px;
     position: absolute;
 }
-
-.footer{
+.footer {
     height: 50px;
     width: 100%;
     border-top: 1px solid black;
@@ -384,39 +362,32 @@ color: black;
      
 }*/
 
- .before{
-        margin-bottom: 20px;
- }
-
-.textDes{
+.before {
+    margin-bottom: 20px;
+}
+.textDes {
     font-size: 15px;
     margin-left: 0;
     margin-right: 50px;
 }
-
 .footer {
- height: 100px;
- }
- 
-a{
+    height: 100px;
+}
+a {
     color: black;
     text-decoration: none;
 }
-
 .scroll-nav {
     visibility: hidden;
 }
-
-.content2{
-    height:1000px;
-    width:100%;
+.content2 {
+    height: 1000px;
+    width: 100%;
     position: fixed;
 }
-
-figure{
-    margin:0px;
+figure {
+    margin: 0px;
 }
-
 .cycle-slideshow {
     width: 85%;
     position: relative;
@@ -424,30 +395,32 @@ figure{
     margin-bottom: 20px;
     margin-left: 40px;
 }
-
-.cycle-slideshow img { width: 100%; height: auto }
-.rwd-break2{
+.cycle-slideshow img {
+    width: 100%;
+    height: auto
+}
+.rwd-break2 {
     display: none;
 }
-
-.rwd-break{
+.rwd-break {
     display: block;
 }
+
 /********************************* Styles SMARTPHONES *************************************/
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
-{
-      .cycle-slideshow {
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .cycle-slideshow {
         width: 90%;
         position: relative;
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
-      }
-    .cycle-slideshow img {
-        width: 100%; height: auto
     }
-
-    .headd{
+    .cycle-slideshow img {
+        width: 100%;
+        height: auto
+    }
+    .headd {
         font-size: 25px;
         line-height: 1.3;
         margin-left: 10px;
@@ -456,115 +429,98 @@ figure{
         padding-top: 10px;
         padding-bottom: 30px;
     }
-
-    .textDes{
-    font-size: 15px;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 40px;
-}
-
-    .navi{
-    display: inline-block;
-    margin-left: 10px;
-    font-size: 15px;
-    text-decoration: underline;
+    .textDes {
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 40px;
     }
-
-   
-    #contact{
+    .navi {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 15px;
+        text-decoration: underline;
+    }
+    #contact {
         visibility: hidden;
     }
-
-    .section{
-
-    border-bottom: 1px solid black;
-    height: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
+    .section {
+        border-bottom: 1px solid black;
+        height: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
-    .section2{
-
-       border-bottom: 1px solid white;
+    .section2 {
+        border-bottom: 1px solid white;
         height: 30px;
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 0;
     }
-
-    .section3{
-
-       border-bottom: 1px solid black;
+    .section3 {
+        border-bottom: 1px solid black;
         height: 60px;
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 0;
     }
-    .section4{
-
+    .section4 {
         margin-top: 10px;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 0;
     }
-    .testfun{
+    .testfun {
         margin-right: 10px;
         margin-left: 10px;
         border-top: 1px solid white;
     }
-
-
-    .testfun2{
+    .testfun2 {
         margin-right: 10px;
         margin-left: 10px;
         border-top: 1px solid black;
     }
-
-    .right{
-    width: 100%;
-    font-size: 15px;
-    position: relative;
-    color: white;
-    margin-top: 5px;
+    .right {
+        width: 100%;
+        font-size: 15px;
+        position: relative;
+        color: white;
+        margin-top: 5px;
     }
-    .titleDate{
-    font-size: 18px;
-    margin: 0; 
+    .titleDate {
+        font-size: 18px;
+        margin: 0;
     }
-
-    .titleDate2{
-    font-size: 15px;
-    margin: 0;
-    color: white; 
+    .titleDate2 {
+        font-size: 15px;
+        margin: 0;
+        color: white;
     }
-
-    .titleWhat{
-    visibility: hidden;
+    .titleWhat {
+        visibility: hidden;
     }
-
-    .titleWhat2{
+    .titleWhat2 {
         font-size: 15px;
         margin-left: 13px;
         color: white;
         visibility: hidden;
     }
-    .content2{
-    height:1000px;
-    width:100%;
-    position: absolute;
+    .content2 {
+        height: 1000px;
+        width: 100%;
+        position: absolute;
     }
-
-    .closeProj{
-    color: white;
-    font-size: 20px;
-    /* padding: 0px; */
-    position: absolute;
-    /* top: 0px; */
-    margin-top: 5px;
+    .closeProj {
+        color: white;
+        font-size: 20px;
+        /* padding: 0px; */
+        position: absolute;
+        /* top: 0px; */
+        margin-top: 5px;
     }
-    br.rwd-break{
+    br.rwd-break {
         display: none;
     }
 }
@@ -572,7 +528,7 @@ figure{
 /********************************* Styles BIGGER SCRENS *************************************/
 
 @media only screen and (min-width: 1382px) {
-    .headd{
+    .headd {
         font-size: 58px;
         line-height: 1.4;
         margin-left: 50px;
@@ -582,23 +538,21 @@ figure{
         padding-bottom: 60px;
     }
     .cycle-slideshow {
-    width: 85%;
-    position: relative;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-}
-    .rwd-break2{
+        width: 85%;
+        position: relative;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+    }
+    .rwd-break2 {
         display: block;
     }
-
-    .footer{
+    .footer {
         height: 100px;
         width: 100%;
         border-top: 1px solid black;
     }
-
-    .navi{
+    .navi {
         font-size: 25px;
         margin-bottom: 60px;
         display: inline-block;
@@ -606,82 +560,70 @@ figure{
         text-decoration: underline;
     }
     .titleDate {
-    font-size: 40px;
-    margin-top: 10px;
-
+        font-size: 40px;
+        margin-top: 10px;
     }
-
-    .section{
+    .section {
         height: 120px;
         margin-left: 50px;
-    margin-right: 50px;
-
+        margin-right: 50px;
     }
-
-    .titleWhat{
-    font-size: 25px;
-    margin-top: 27px;
+    .titleWhat {
+        font-size: 25px;
+        margin-top: 27px;
     }
-    .project{
+    .project {
         position: fixed;
         top: 100px;
     }
-
-    .navProj{
+    .navProj {
         position: fixed;
         bottom: 0px;
     }
-    .navProj2{
+    .navProj2 {
         position: fixed;
         bottom: 0px;
     }
     .description {
         right: 0px !important;
         position: absolute;
-    top: 100px;
+        top: 100px;
     }
-
-    .right{
+    .right {
         margin-bottom: 20px
     }
-        .closeProj{
-    color: white;
-    /* padding: 0px; */
-    position: absolute;
-    /* top: 0px; */
-     margin-bottom: 20px
-
-    }  
-
-    .nextnone{
-        visibility: hidden;
-    } 
-    #last {
-    position: fixed;
-    bottom: 60px;
+    .closeProj {
+        color: white;
+        /* padding: 0px; */
+        position: absolute;
+        /* top: 0px; */
+        margin-bottom: 20px
     }
-    .rightNON{
+    .nextnone {
+        visibility: hidden;
+    }
+    #last {
+        position: fixed;
+        bottom: 60px;
+    }
+    .rightNON {
         color: black;
     }
-
-
-
-    .testfun2{
-    margin-right: 50px;
-    margin-left: 50px;
-    border-top: 1px solid black;
+    .testfun2 {
+        margin-right: 50px;
+        margin-left: 50px;
+        border-top: 1px solid black;
     }
     .section2 {
-    border-bottom: 1px solid white;
-    height: 70px;
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 0;
+        border-bottom: 1px solid white;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-bottom: 0;
     }
-    .section3{
-
-       border-bottom: 1px solid black;
+    .section3 {
+        border-bottom: 1px solid black;
         height: 60px;
         margin-top: 10px;
         margin-left: 50px;
@@ -689,30 +631,49 @@ figure{
         margin-bottom: 0;
     }
     .textDes {
-    font-size: 20px;
-    line-height: 1.5;
-    margin-left: 0;
-    margin-right: 50px
+        font-size: 20px;
+        line-height: 1.5;
+        margin-left: 0;
+        margin-right: 50px
     }
     .titleWhat2 {
-    font-size: 20px;
-    margin-left: 13px;
-    color: white;
+        font-size: 20px;
+        margin-left: 13px;
+        color: white;
     }
-    .titleDate2{
-    font-size: 40px;
-    margin: 0;
-    color: white; 
+    .titleDate2 {
+        font-size: 40px;
+        margin: 0;
+        color: white;
     }
     .testfun {
-    margin-right: 50px;
-    margin-left: 50px;
-    border-top: 1px solid white;
+        margin-right: 50px;
+        margin-left: 50px;
+        border-top: 1px solid white;
     }
 }
-.scroll-nav {z-index: 9999; position: fixed; left: 0; top: 0 !important; width: 100%;background:rgba(255,0,0,0.5);}
-.scroll-nav ul.menu {float:right;}
-#nav #left-header {float:left;font-size:80%;}
-#nav #left-header a {background:none;}
-#left-header {display:none;border:none;}
-#left-header img {border:none !important;}
+.scroll-nav {
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0 !important;
+    width: 100%;
+    background: rgba(255, 0, 0, 0.5);
+}
+.scroll-nav ul.menu {
+    float: right;
+}
+#nav #left-header {
+    float: left;
+    font-size: 80%;
+}
+#nav #left-header a {
+    background: none;
+}
+#left-header {
+    display: none;
+    border: none;
+}
+#left-header img {
+    border: none !important;
+}
