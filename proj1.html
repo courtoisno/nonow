@@ -5,9 +5,8 @@
       	<!--Import materialize.css-->
       	<link type="text/css" rel="stylesheet" href="instances/materialize.min.css"  media="screen,projection"/>
       	<link rel="stylesheet" type="text/css" href="instances/main.css" media="screen"/>
-      	<link rel="stylesheet" href="instances/flickity.min.css" media="screen">
-     	<link rel="stylesheet" href="instances/normalize.css" media="screen">
-
+      	<link rel="stylesheet" type="text/css" href="instances/animsition.min.css">
+      	  <link rel="stylesheet" href="instances/animate.min.css">
 
       	  <link rel="stylesheet" href="instances/animate.min.css">
 
@@ -19,6 +18,11 @@
 	</head>
 
 <body class="projBg">
+<div class="animsition" data-animsition-in-class="fade-in-right"
+  data-animsition-in-duration="1000"
+  data-animsition-out-class="fade-out-right"
+  data-animsition-out-duration="800" >
+
 <div class="row">
 	<div class="content2">
 		<div class="headTitle2"> 
@@ -59,7 +63,7 @@
 					<a class="projA" href="index.html"><p class="closeProj"> × </a></p>
 				</div>	
 				<div class="col s6 pro2"> 
-					<a class="projA" href="proj2.html"><p class="right-align right">Next</a></p>
+					<a class="projA animsition-link" href="proj2.html"><p class="right-align right">Next</a></p>
 				</div>	
 			</div>
 		</div>
@@ -74,7 +78,10 @@
 		 <script type="text/javascript" src="instances/jQuery.scrollSpeed.js"></script>
 		 	<script src="instances/jquery.cycle2.js"></script>
 		 	<script src="instances/flickity.pkgd.min.js"></script>
+		 <script type="text/javascript" src="instances/animsition.min.js"></script>
+
 		<script src="instances/main.js"></script>
+	</div>	
 	</body>
 
 </html>

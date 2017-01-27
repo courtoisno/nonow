@@ -19,7 +19,9 @@ body {
     color: black;
     background-color:white;
 }
-
+#NON{
+    visibility: hidden;
+}
 #websites{
     visibility: hidden;
 }
@@ -34,9 +36,9 @@ a.click{
 a.click:hover{
     color: blue;
 }
-img{
+/*img{
     display: none;
-}
+}*/
 
 .textmarker{
      display:inline;
@@ -78,13 +80,18 @@ img{
     color: lightgray
 }
 
-.section:hover{
+.section:hover {
     color: lightgray;
     border-bottom: 1px solid lightgray;
 }
+.section:hover p.titleDate{
+    color: lightgray;
+}
 
-
-.proj1:hover img{
+a:hover{
+    color: lightgray; 
+}
+/*.proj1:hover img{
     display: block;
     position: absolute;
     right: 110px;
@@ -93,33 +100,58 @@ img{
 
 
 .proj2:hover img{
-    margin-left: 240px;
-    margin-right: auto;
-    display: block;
+   display: block;
+    height: 30%;
     position: absolute;
+    left: 470px;
+  
 }
 .proj3:hover img{
-    margin-left: 510px;
+    left: 550px;
     margin-right: auto;
     display: block;
-    max-width: 600px;
+    max-width: 500px;
     position: absolute;
 }
 
-.proj3:hover img{
-    margin-left: 510px;
+.proj4:hover img{
+       left: 480px;
     margin-right: auto;
     display: block;
-    max-width: 600px;
+    max-width: 500px;
+    position: absolute;
+    top: 100px;
+}
+.proj6:hover img{
+        display: block;
+    max-width: 340px;
+    position: absolute;
+    left: 340px;
+    top: 260px;
+}
+
+.proj8:hover img{
+ display: block;
+    max-width: 500px;
+    position: absolute;
+    right: 30px;
+}
+
+.proj10:hover img{
+   display: block;
+    max-width: 500px;
+    right: 100px;
+    bottom: 200px;
     position: absolute;
 }
 
 .proj11:hover img{
-    display: block;
+  display: block;
     position: absolute;
-    left: 110px;
-    height: 50%;
-}
+    left: 250px;
+    height: 30%;
+    bottom: 270px;
+}*/
 img.cycle-next {
     cursor: url('../images/eyeball 10.18.53.png'), crosshair;
 }
@@ -201,9 +233,7 @@ header {
 .textmarker a:hover{
     color: black
 }
-a:hover{
-    color: lightgray; 
-}
+
 a.projA{
     color: white;
 }
@@ -233,8 +263,6 @@ div .pro{
 }
 div .pro2{
 }
-
-
 
 .main{
     margin-top: 50px;
@@ -623,7 +651,8 @@ figure{
     /* top: 0px; */
      margin-bottom: 20px
 
-    }   
+    }  
+
     .nextnone{
         visibility: hidden;
     } 
@@ -631,6 +660,11 @@ figure{
     position: fixed;
     bottom: 60px;
     }
+    .rightNON{
+        color: black;
+    }
+
+
 
     .testfun2{
     margin-right: 50px;
